@@ -1,0 +1,38 @@
+/* public/css/quiz.css */
+
+.container {
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+.centered {
+    margin-bottom: 20px;
+}
+
+.quiz-inputs{
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+}
+
+.quiz-inputs div {
+    flex: 0 0 48%; /* Adjust the width as needed */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+   
+}
+.ck-editor__editable_inline
+{
+    height: 500px;
+}
+
+.big{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+}
